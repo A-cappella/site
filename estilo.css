@@ -1,0 +1,79 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	height: 950px;
+	margin: auto;
+	width: auto;
+}
+#contenedor {
+	width: 1023px;
+	margin-top: 0;
+	margin-right: 0px;
+	margin-bottom: 0;
+	margin-left: 7px;
+	border: medium solid #207317;
+	background-image: url(Images/fondotabla2.jpg);
+	background-repeat: repeat;
+}
+#piedepagina {
+	width: 1024px;
+	clear: both;
+	height: 29px;
+}
+
+
+#encabezado {
+	height: 131px;
+	background-color: #6FF;
+	border-top-color: #000;
+	border-right-color: #000;
+	border-bottom-color: #000;
+	border-left-color: #000;
+}
+#contenido {
+	float: right;
+	width: 791px;
+	clip: rect(auto,0px,auto,auto);
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+#menulateral {
+	float: left;
+	width: 228px;
+	background-image: url(Images/cortelateral2.jpg);
+	background-repeat: repeat;
+}
+#menutop {
+	float: right;
+	height: 29px;
+	width: 789px;
+	background-color: #C3F8FC;
+}
+#contenido p {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	clip: rect(0px,auto,auto,auto);
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+}
+#subtitulos {
+	background-color: #096;
+	margin-left: 5px;
+	font-size: 23px;
+	border-top-color: #000;
+	border-right-color: #000;
+	border-bottom-color: #000;
+	border-left-color: #000;
+}
+#contenido table {
+	color: #003;
+	background-color: #000;
+	position: relative;
+}
